@@ -152,6 +152,9 @@ This helps identify high-value product categories and categories with stronger m
 
 ---
 
+## Project Structure
+
+```text
 Ecommerce-PySpark-Analysis/
 │
 ├── data/
@@ -167,6 +170,7 @@ Ecommerce-PySpark-Analysis/
 │   └── final_df_by_state_parquet/
 │
 └── README.md
+```
 
 
 ## Output
@@ -179,3 +183,5 @@ final_df_repartitioned = final_df.repartition("state")
 final_df_repartitioned.write.mode("overwrite").parquet(
     "output/final_df_by_state_parquet"
 )
+
+
