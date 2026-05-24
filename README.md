@@ -149,7 +149,25 @@ Additional analysis was performed to compare price-related measures across categ
 
 This helps identify high-value product categories and categories with stronger margins.
 
+
 ---
+
+Ecommerce-PySpark-Analysis/
+│
+├── data/
+│   ├── users.csv
+│   ├── orders.csv
+│   ├── order_items.csv
+│   └── products.csv
+│
+├── notebook/
+│   └── ecommerce_pyspark_analysis.ipynb
+│
+├── output/
+│   └── final_df_by_state_parquet/
+│
+└── README.md
+
 
 ## Output
 
